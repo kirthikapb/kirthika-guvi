@@ -6,12 +6,12 @@ import React,{useState,useEffect} from 'react'
      useEffect(() => 
      {
        console.log("mounting phase")  
-     },[])//only called at mounting phase not at updating phase
+     },[])
 
      useEffect(() => 
      {
        console.log("updating phase")  
-     },[count])//mounting and updating
+     },[count])
     
 
     return (
