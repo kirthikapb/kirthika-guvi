@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
-//import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import {Grid} from '@mui/material';
@@ -52,9 +51,7 @@ import './card.css';
         </div>
     
     </CardContent>
-     {/* <CardActions>
-      <Button variant="contained"  sx={{ minWidth:400}} >Button</Button>
-      </CardActions>*/}
+    
     
     </Card>
 
