@@ -1,0 +1,25 @@
+.card
+{
+    text-align: center;
+}
+.img
+{
+    width:24px;
+    height:24px;
+}
+.centercontent
+{
+    margin-left:20px;
+}
+.header
+{
+    font-size:50px;
+}
+.spanheader
+{
+    font-size: small;
+}
+.bold
+{
+    font-weight: bold;
+}
