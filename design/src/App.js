@@ -2,7 +2,6 @@
 import './App.css';
 import * as React from 'react';
 import {Grid} from '@mui/material';
-//import Maincard from './card'
 import Card1 from './card1';
 import Card2 from './card2';
 import Card3 from './card3';
