@@ -49,11 +49,11 @@ export default function App() {
         <Switch>
         
           <Route exact path="/" component={Home} />
-          <Route exact path="/AdminLogin" component={AdminLogin} />
-          <Route exact path="/StudentLogin" component={StudentLogin} />
-          <Route exact path="/Contactus" component={ContactUs} />
-          <Route exact path="/Aboutus" component={Aboutus} />
-          <Route exact path="/Branches" component={Branches} />
+          <Route exact path="/adminLogin" component={AdminLogin} />
+          <Route exact path="/studentLogin" component={StudentLogin} />
+          <Route exact path="/contactus" component={ContactUs} />
+          <Route exact path="/aboutus" component={Aboutus} />
+          <Route exact path="/branches" component={Branches} />
         </Switch>
       </BrowserRouter>
     </div>
@@ -192,7 +192,7 @@ function Home(props) {
           <CardActions>
             <Button
               size="small"
-              onClick={() => props.history.push("/Contactus")}
+              onClick={() => props.history.push("/contactus")}
             >
               Contact Us
             </Button>
@@ -203,7 +203,7 @@ function Home(props) {
           <Grid item>
             <Button
               variant="contained"
-              onClick={() => props.history.push("/AdminLogin")}
+              onClick={() => props.history.push("/adminLogin")}
             >
               Admin Login
             </Button>
@@ -211,7 +211,7 @@ function Home(props) {
           <Grid item>
             <Button
               variant="contained"
-              onClick={() => props.history.push("/StudentLogin")}
+              onClick={() => props.history.push("/studentLogin")}
             >
               Student Login
             </Button>
@@ -266,20 +266,20 @@ function Home(props) {
         <List className={classes.padding}>
           <Button
             color="secondary"
-            onClick={() =>props.history.push("/Contactus")}
+            onClick={() =>props.history.push("/contactus")}
           >
             Contact US
           </Button>
           <Button
             color="secondary"
-            onClick={() =>props.history.push("/Aboutus")}
+            onClick={() =>props.history.push("/aboutus")}
           >
            
             About US
           </Button>
           <Button
             color="secondary"
-            onClick={() => props.history.push("/Branches")}
+            onClick={() => props.history.push("/branches")}
           >
             
             Branches
