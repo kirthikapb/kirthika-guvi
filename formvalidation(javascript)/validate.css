@@ -1,0 +1,43 @@
+
+
+.whole
+{
+    margin-top:50px;
+    display: block;
+}
+
+.header
+{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.submitform
+{
+    background-color:lightsteelblue;
+    width:500px;
+    padding: 20px;
+
+}
+
+.f
+{
+display: flex;
+font-weight: bold;
+}
+.ip
+{
+width: 300px;
+}
+
+#emailmsg,#passwordmsg,#agemsg,#textmsg
+{
+    color: red;
+    
+}
+#success
+{  
+    margin-top:20px ;
+   font-weight: 500;
+   margin-left: 400px;
+}
