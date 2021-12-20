@@ -1,0 +1,50 @@
+.head
+{
+    padding:10px;
+    border: 1px solid black ;
+    /*color:rgb(34, 5, 34);*/
+    background:linear-gradient(-45deg,blueviolet,rgb(34, 5, 34));
+}
+.div1
+{
+  background-image:url("phone1.jpg");
+   background-position: center center;
+   background-size:cover;
+    width:440px;
+    
+
+}
+.div2
+{
+    width:440px;
+    background-image:url("coronabackground.jpg"); 
+    
+}
+.div3
+{
+    width:440px;
+    background-image: url("d2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+
+}
+.heading
+{
+        border-bottom:2px solid white;
+}
+
+
+#image
+{
+   width: 100px;
+   height:100px;
+}
+.coronaflex
+{
+    gap:0.1em;
+}
+.phoneborder
+{
+    border-bottom:1px solid white;  
+}
