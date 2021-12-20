@@ -1,0 +1,50 @@
+Integra-Guvi
+Assignment 10
+Sivaranjini S
+•
+Dec 14
+100 points
+1. Download and Install MySQL 8
+2. Download MySQL Workbench to work on database
+3. Create a table and fill with data
+4. Write a DQL Statement Select query including where, distinct, and/or, between, like, alias, in and not in, order by, limit, offset conditions in the same query
+Class comments
+Your work
+Turned in
+
+ASSIGNMENT1.txt
+Text
+Private comments
+-- creating database
+create database INTEGRA;
+
+-- DROP DATABASE
+drop database integra;
+
+-- CREATE TABLE
+create table USER(
+ID int,
+USERNAME varchar(255),
+PHONENO int,
+ADDRESS enum('CHENNAI','PUDUCHERRY','BANGLORE')
+); 
+
+-- ALTER TABLE STRUCTURE
+-- ADDING A COLUMN
+alter table USER add column DOB datetime;
+
+-- DELETING A COLUMN
+alter table USER drop column DOB ;
+
+-- MODIFY A COLUMN
+alter table USER modify column USERNAME varchar(500);
+
+-- DROP A TABLE
+drop table USER;
+
+-- INSERTING DATA
+insert into USER(ID,USERNAME,PHONENO,ADDRESS,DOB) values(11,'lll',112233,'PUDUCHERRY',NOW());
+
+
+-- ASSIGNMENT WORK
+SELECT  ID,USERNAME AS NAME,PHONENO,ADDRESS,DOB from USER  where ID between 3 and 11  or address like "%ban" OR ID IN (1) order by id desc limit 5 offset 1;
