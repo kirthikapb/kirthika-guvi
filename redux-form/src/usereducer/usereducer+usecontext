@@ -1,0 +1,7 @@
+{/*
+    usereducer with use context
+    1.usereducer:-local state management
+    2.to share share state between components:-global state mangaement
+    3.by usereducer+usecontext
+    
+*/}
